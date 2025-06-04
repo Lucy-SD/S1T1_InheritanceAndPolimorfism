@@ -34,4 +34,10 @@ public class BasketballNews extends News {
         }
         return super.getScore();
     }
+
+    public String toString(){
+        return "La noticia de Basquet de título \"" + super.getHeadline() + "\" habla sobre la competencia " + this.competition
+                + " y del equipo " + this.club + ".\nPrecio final: " +
+                this.calculateNewsPrice() + "€.\nPuntuación: " + this.calculateNewsScore() + ".\n";
+    }
 }
