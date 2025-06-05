@@ -135,27 +135,6 @@ The main class must implement:
 - Encapsulation
 - Menu-driven systems
 
-```java
-// Example structure
-class Journalist {
-    final String dni;
-    static double salary = 1500;
-    // ...
-}
-
-abstract class NewsArticle {
-    String headline;
-    String text = "";
-    // ...
-}
-
-class FootballNews extends NewsArticle {
-    String competition;
-    String club;
-    String player;
-    // ...
-}
-
 ### 🎯 Requirements
 - All instruments share `name` and `price` attributes
 - An abstract method `play()` must be implemented in each subclass
