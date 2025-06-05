@@ -14,6 +14,57 @@ This repository contains structured Java OOP exercises focused on:
 - Static/final field usage
 - Method overriding and object interaction
 
+### 💻 Technologies Used
+- ☕ Java 21
+
+- 🧠 IntelliJ IDEA
+
+- 🗃️ Git & GitHub
+
+### 📋 Requirements
+- ✅ Java JDK 21
+- ✅ IntelliJ IDEA
+- ✅ Git
+- ✅ Internet connection
+
+### 🛠️ Installation
+
+git clone https://github.com/Lucy-SD/S1T1_InheritanceAndPolimorfism
+
+Open in IntelliJ: File > Open > [select folder]
+
+Set SDK: File > Project Structure > Project SDK > JDK 21
+
+### ▶️ Execution
+Navigate to the desired exercise package
+
+Open the corresponding Main class
+
+Right-click → Run
+
+### 🌐 Deployment
+For educational purposes only.
+
+### 🤝 Contributions
+- ⭐ Star the repo
+
+- 🪄 Fork it
+
+- 🛠️ Submit issues
+
+### 🎯 Learning Goals
+Class hierarchies
+
+Interface implementation
+
+Static vs instance context
+
+Method overriding
+
+Encapsulation
+
+Thanks for visiting! 🚀
+
 The exercises are organized by level and demonstrate progressive mastery of key OOP concepts.
 
 ---
@@ -148,58 +199,5 @@ The main class must implement:
 - Static initialization
 
 ---
-
-### 💻 Technologies Used
-- ☕ Java 21
-
-- 🧠 IntelliJ IDEA
-
-- 🗃️ Git & GitHub
-
-### 📋 Requirements
-- ✅ Java JDK 21
-- ✅ IntelliJ IDEA
-- ✅ Git
-- ✅ Internet connection
-
-### 🛠️ Installation
-
-git clone https://github.com/Lucy-SD/S1T1_InheritanceAndPolimorfism
-
-Open in IntelliJ: File > Open > [select folder]
-
-Set SDK: File > Project Structure > Project SDK > JDK 21
-
-
-### ▶️ Execution
-Navigate to the desired exercise package
-
-Open the corresponding Main class
-
-Right-click → Run
-
-
-### 🌐 Deployment
-For educational purposes only.
-
-### 🤝 Contributions
-- ⭐ Star the repo
-
-- 🪄 Fork it
-
-- 🛠️ Submit issues
-
-### 🎯 Learning Goals
-Class hierarchies
-
-Interface implementation
-
-Static vs instance context
-
-Method overriding
-
-Encapsulation
-
-Thanks for visiting! 🚀
 
 ```java
