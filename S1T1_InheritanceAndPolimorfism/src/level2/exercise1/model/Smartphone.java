@@ -18,6 +18,6 @@ public class Smartphone extends Phone implements Camera, Clock {
     }
 
     public String toString() {
-        return "Soy un SmartPhone de la marca " + super.getBrand() + ", modelo " + super.getModel() + ".\n";
+        return super.toString() + "Soy un SmartPhone.\n";
     }
 }

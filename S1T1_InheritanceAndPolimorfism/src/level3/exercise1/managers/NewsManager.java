@@ -24,7 +24,7 @@ public class NewsManager {
         idEditor = editorManager.findEditor(id);
         if (idEditor != -1) {
 
-            System.out.println("De qué deporte es la noticia ¿?\n" +
+            System.out.println("De qué deporte es la noticia ¿? Elija una opción (1 - 5):\n" +
                     "1. Fútbol;\n" +
                     "2. Basquet;\n" +
                     "3. Tennis;\n" +
@@ -60,9 +60,9 @@ public class NewsManager {
         String player;
         SoccerNews soccer;
 
-        System.out.println("Ingese el titular de la noticia:");
+        System.out.println("Ingrese el titular de la noticia:");
         headline = scan.nextLine();
-        System.out.println("A que competencia hace referencia la noticia ¿?");
+        System.out.println("A que competición hace referencia la noticia ¿?");
         competition = scan.nextLine();
         System.out.println("A que club ¿?");
         club = scan.nextLine();
@@ -80,9 +80,9 @@ public class NewsManager {
         String club;
         BasketballNews basket;
 
-        System.out.println("Ingese el titular de la noticia:");
+        System.out.println("Ingrese el titular de la noticia:");
         headline = scan.nextLine();
-        System.out.println("A que competencia hace referencia la noticia ¿?");
+        System.out.println("A que competición hace referencia la noticia ¿?");
         competition = scan.nextLine();
         System.out.println("A que club ¿?");
         club = scan.nextLine();
@@ -99,9 +99,9 @@ public class NewsManager {
         String player;
         TennisNews tennis;
 
-        System.out.println("Ingese el titular de la noticia:");
+        System.out.println("Ingrese el titular de la noticia:");
         headline = scan.nextLine();
-        System.out.println("A que competencia hace referencia la noticia ¿?");
+        System.out.println("A que competición hace referencia la noticia ¿?");
         competition = scan.nextLine();
         System.out.println("A que tenista ¿?");
         player = scan.nextLine();
@@ -117,9 +117,9 @@ public class NewsManager {
         String team;
         F1News f1;
 
-        System.out.println("Ingese el titular de la noticia:");
+        System.out.println("Ingrese el titular de la noticia:");
         headline = scan.nextLine();
-        System.out.println("A que equipo hace referencia ¿?");
+        System.out.println("A que escudería hace referencia ¿?");
         team = scan.nextLine();
         f1 = new F1News(headline, team);
         news.add(f1);
@@ -133,7 +133,7 @@ public class NewsManager {
         String team;
         MotorcycleNews moto;
 
-        System.out.println("Ingese el titular de la noticia:");
+        System.out.println("Ingrese el titular de la noticia:");
         headline = scan.nextLine();
         System.out.println("A que equipo hace referencia ¿?");
         team = scan.nextLine();

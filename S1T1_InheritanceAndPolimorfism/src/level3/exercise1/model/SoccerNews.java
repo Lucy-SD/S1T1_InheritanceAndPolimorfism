@@ -42,7 +42,7 @@ public class SoccerNews extends News {
     }
 
     public String toString() {
-        return "La noticia de Futbol de título \"" + super.getHeadline() + "\" habla sobre la competencia " + this.competition
+        return "La noticia de Futbol de título \"" + super.getHeadline() + "\" habla sobre la competición " + this.competition
                 + ", del equipo " + this.club + " y el jugador " + this.player + ".\nPrecio final: " +
                 this.calculateNewsPrice() + "€.\nPuntuación: " + this.calculateNewsScore() + ".\n";
     }

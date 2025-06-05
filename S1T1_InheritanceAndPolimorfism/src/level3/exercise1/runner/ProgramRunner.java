@@ -38,7 +38,7 @@ public class ProgramRunner {
 
 
         do {
-            System.out.println("Bienvenido a la Redacción.\nElija una opción:\n" +
+            System.out.println("Bienvenido a la Redacción.\nElija una opción (0 - 8):\n" +
                     "1. Introducir redactor.\n" +
                     "2. Ver lista de los redactores.\n" +
                     "3. Eliminar redactor.\n" +

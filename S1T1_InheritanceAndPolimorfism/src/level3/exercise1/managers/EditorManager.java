@@ -4,12 +4,13 @@ import level3.exercise1.model.Editor;
 import level3.exercise1.model.News;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class EditorManager {
 
     static Scanner scan = new Scanner(System.in);
-    public static ArrayList<Editor> editors = new ArrayList<>();
+    public static List<Editor> editors = new ArrayList<>();
     static int idEditor = -1;
 
     public int findEditor(int id) {
