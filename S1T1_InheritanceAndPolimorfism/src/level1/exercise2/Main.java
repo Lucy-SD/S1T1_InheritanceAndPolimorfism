@@ -1,6 +1,6 @@
-package level3.exercise1;
+package level1.exercise2;
 
-import level3.exercise1.runner.ProgramRunner;
+import level1.exercise2.runner.ProgramRunner;
 
 public class Main {
     public static void main(String[] args) {
