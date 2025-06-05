@@ -147,7 +147,7 @@ The main class must implement:
 - Method overriding
 - Static initialization
 
-
+---
 
 ### 💻 Technologies Used
 - ☕ Java 21
